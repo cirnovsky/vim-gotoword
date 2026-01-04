@@ -1,0 +1,23 @@
+*vim-gotoword.txt*	Helix-like Goto-Word Navigation Helper Plugin for Vim
+
+
+
+Author: Guanyu Wang (cirnovskyv AT gmail DOT com)
+Last Change: 4 Jan, 2025
+
+==============================================================================
+CONTENTS                                                     *vim-gotoword-contents*
+
+     1. Overview ................................... |vim-gotoword-overview|
+     2. Requirements ............................... |vim-gotoword-installation|
+     3. Usage ...................................... |vim-gotoword-usage|
+     4. Configuration............................... |vim-gotoword-configuration|
+     5. Commands ................................... |vim-gotoword-commands|
+     7. Diagnostics ................................ |vim-gotoword-diagnostics|
+    11. Autocommands ............................... |vim-gotoword-autocmds|
+    12. Highlight Groups ........................... |vim-gotoword-highlight-groups|
+    13. Debugging .................................. |vim-gotoword-debug|
+    14. Custom Command Handlers .................... |vim-gotoword-custom-commands|
+    20. License .................................... |vim-gotoword-license|
+
+==============================================================================
