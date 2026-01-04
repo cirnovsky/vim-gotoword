@@ -1,9 +1,25 @@
 INTRODUCTION
 
-Anywhere you like.
+Navigate Vim with ease!
 
-I prefer Vim than Helix personally, but the 'gw' thing in Helix is just killer. There are splendid navigation plugins for Neovim but not Vim, so I wrote this.
+I personally prefer Vim over Helix, but the 'gw' feature in Helix is just a game-changer. There are splendid navigation plugins for Neovim like `flash.nvim`, `leap.nvim` and so on, but they lack support for Vim, so I created this plugin to hopefully speed up a little bit of you production.
 
-Check out demo.png for a grasp.
+Check out `demo.png` for a quick look of it.
 
-Please star if you enjoy this little thing and leave your concerns in Issue!
+USAGE
+
+1. Install the plugin with your preferred plugin manager. For example with `vim-plug`, add the following to your vimrc:
+
+```
+Plug 'cirnovsky/vim-gotoword'
+```
+
+2. Bind a shortcut to evoke the :GotoWord command. For example you could add this to your vimrc:
+
+```
+nmap gw :GotoWord<CR>
+```
+
+Easy to go, isn't it!
+
+If you find this plugin helpful please star! Also any feedback is appreciated so please post your concerns in the Issues section.
