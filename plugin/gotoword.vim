@@ -1,13 +1,13 @@
-" plugin/gw.vim
-" Helix Goto-Word in Vim: A Vim plugin to jump to labelled position on the
-" screen just like in Helix editor.
-" Maintainer: Wang "cirnovsky" Guanyu
+" plugin/gotoword.vim
+" Vim-Gotoword: A Vim plugin to jump to labelled position on the
+" screen just like in Helix.
+" Maintainer: Cirnovsky
 " Version: 0.1
 
-if exists('g:loaded_vimhelixgw')
+if exists('g:loaded_gotoword')
 	finish
 endif
-let g:loaded_vimhelixgw = 1
+let g:loaded_gotoword = 1
 
 let s:save_cpo = &cpoptions
 set cpoptions&vim
