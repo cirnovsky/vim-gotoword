@@ -1,23 +1,31 @@
-*vim-gotoword.txt*	Helix-like Goto-Word Navigation Helper Plugin for Vim
+*gotoword.txt*  Goto a word in your sight
 
+Author:  Guanyu Wang <https://guanyu.me/>
+License: Same terms as Vim itself (see |license|)
 
+Jump to a word sitting on the screen.  Label every word with a two-letter
+tag.
 
-Author: Guanyu Wang (cirnovskyv AT gmail DOT com)
-Last Change: 4 Jan, 2025
+						*:Gotoword*
+:Gotoword		Label every word with >= 2 length with a two-letter
+			tag.
 
-==============================================================================
-CONTENTS                                                     *vim-gotoword-contents*
+HIGHLIGHTING					*gotoword-highlighting*
 
-     1. Overview ................................... |vim-gotoword-overview|
-     2. Requirements ............................... |vim-gotoword-installation|
-     3. Usage ...................................... |vim-gotoword-usage|
-     4. Configuration............................... |vim-gotoword-configuration|
-     5. Commands ................................... |vim-gotoword-commands|
-     7. Diagnostics ................................ |vim-gotoword-diagnostics|
-    11. Autocommands ............................... |vim-gotoword-autocmds|
-    12. Highlight Groups ........................... |vim-gotoword-highlight-groups|
-    13. Debugging .................................. |vim-gotoword-debug|
-    14. Custom Command Handlers .................... |vim-gotoword-custom-commands|
-    20. License .................................... |vim-gotoword-license|
+Labels are shown with highlight group |gotowordHighlight|.
 
-==============================================================================
+Defaults adapt to |'background'|. You can override colors/styles:
+>
+	let g:gotoword_guifg = '#cdd6f4'
+	let g:gotoword_guibg = '#313244'
+	let g:gotoword_gui = 'underline'
+	let g:gotoword_ctermfg = 'White'
+	let g:gotoword_ctermbg = 'DarkBlue'
+	let g:gotoword_cterm = 'underline'
+<
+
+Notes:
+- `gui*` values support hex colors.
+- `cterm*` values must be terminal color names or numbers.
+
+ vim:tw=78:et:ft=help:norl:
