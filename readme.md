@@ -47,7 +47,7 @@ Then:
 
 - `:GotoWord`: start jump mode for the current window.
 
-## Highlight Group
+## Highlight group
 
 You can customize labels with global options:
 
@@ -68,7 +68,7 @@ let g:gotoword_gui = 'underline'
 let g:gotoword_cterm = 'underline'
 ```
 
-## Known Issues
+## Known issues
 
 - The plugin rewrites visible buffer text temporarily, then undoes it.  So it has potentially risk of destructing your content, if the plugin or VIM close unexpectedly.
 
@@ -77,7 +77,7 @@ let g:gotoword_cterm = 'underline'
 After installation, see Vim help:
 
 ```vim
-:help vim-gotoword
+:help gotoword
 ```
 
 ## To-Do List
