@@ -79,7 +79,3 @@ After installation, see Vim help:
 ```vim
 :help gotoword
 ```
-
-## To-Do List
-
-- [] Use 
